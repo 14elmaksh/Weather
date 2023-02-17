@@ -1,0 +1,95 @@
+h1 {
+    color: white;
+    background-image: linear-gradient(to right,  rgb(189, 179, 45),rgb(233, 149, 15));
+    font-size: 35px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+h3 {
+    font-size: 10px;
+    margin: 20px 0px 20px 20px;
+}
+
+aside {
+    width: 200px;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: rgb(218, 18, 18);
+    color: rgb(158, 131, 131);
+}
+
+#centering {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+
+#searchCity {
+    height: 25px;
+    margin-top: 25px;
+}
+
+
+#search {
+    color: white;
+    background-image: linear-gradient(to right,  rgb(0, 174, 255),rgb(20, 20, 217));
+}
+
+#currentCity p {
+    margin: 25px 0px 0px 25px;
+    font-size: 15px;
+}
+
+#search:hover {
+    background-image: linear-gradient(to left,  rgb(126, 128, 9),rgb(20, 20, 217));
+}
+
+#currentCity {
+    width: auto;
+    border: 2px solid black;
+    height: 300px;
+    margin: 25px 25px 0px 25px;
+}
+
+#currentCity h2 {
+    margin-left: 25px;
+}
+
+
+#fiveDayForecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.forecastDay {
+    color: white;
+    width: 150px;
+    height: 200px;
+    background-image: linear-gradient( rgb(0, 174, 255),rgb(20, 20, 217));
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+    #centering {
+        display: block;
+    }
+
+
+    aside {
+        width: auto;
+    }
+}
